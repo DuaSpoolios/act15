@@ -1,16 +1,28 @@
-# act15
+# act15 — Inventory Management App (Flutter + Firebase Firestore)
 
-A new Flutter project.
+This project is a Flutter-based **Inventory Management App** that uses **Firebase Firestore** for full CRUD (Create, Read, Update, Delete) functionality.
 
-## Getting Started
+It allows users to add, view, edit, and delete inventory items in real time — with data stored securely in Firestore.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Features implemented
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Advanced Search & Category Filter
+- Users can search items by name using the search bar.  
+- Filter items instantly by category using interactive chips.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Data Insights Dashboard
+- A dashboard page summarizes inventory statistics, including:
+  - Total number of items  
+  - Total inventory value  
+  - List of out-of-stock items  
+
+---
+
+## How to Run the App
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/<your-username>/act15.git
+   cd act15
